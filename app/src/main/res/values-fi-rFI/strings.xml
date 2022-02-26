@@ -47,8 +47,6 @@
     <string name="category_behaviour">Käyttäytyminen</string>
     <string name="clear_files">Tyhjennä ladatut tiedostot</string>
     <string name="cleared_files">Tiedostot tyhjennettiin onnistuneesti</string>
-    <string name="firebase_summary">Tämän avulla voimme kerätä tietoa sovelluksen suorituskyvystä ja kaatumislokeista</string>
-    <string name="firebase_title">Firebase-analytiikka</string>
     <string name="language_title">Kieli</string>
     <string name="link_custom_tabs">Linkit aukeavat Chromen mukautetuissa välilehdissä</string>
     <string name="link_title">Käytä Chromen mukautettuja välilehtiä</string>

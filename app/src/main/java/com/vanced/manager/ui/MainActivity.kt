@@ -15,7 +15,6 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import androidx.preference.PreferenceManager.getDefaultSharedPreferences
-import com.google.firebase.messaging.FirebaseMessaging
 import com.vanced.manager.BuildConfig.VERSION_CODE
 import com.vanced.manager.R
 import com.vanced.manager.databinding.ActivityMainBinding
@@ -156,11 +155,6 @@ class MainActivity : AppCompatActivity() {
 
         if (firstLaunch) {
             DialogContainer.showSecurityDialog(this)
-            with(FirebaseMessaging.getInstance()) {
-                subscribeToTopic("Vanced-Update")
-                subscribeToTopic("Music-Update")
-                subscribeToTopic("MicroG-Update")
-            }
         } else {
             if (isMiuiOptimizationsEnabled) {
                 DialogContainer.miuiDialog(this)
