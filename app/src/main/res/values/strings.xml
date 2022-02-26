@@ -55,6 +55,8 @@
     <string name="language_title">Language</string>
     <string name="link_custom_tabs">Links will open in Chrome Custom Tabs</string>
     <string name="link_title">Use Chrome Custom Tabs</string>
+    <string name="check_updates_at_launch_title">Check manager updates at launch</string>
+    <string name="check_updates_at_launch_summary">Check for Vanced Manager updates at launch time</string>
     <string name="push_notifications">%1$s Push Notifications</string>
     <string name="push_notifications_summary">Receive push notifications when an update for %1$s is released</string>
     <string name="script_save_failed">Failed to save new time value</string>

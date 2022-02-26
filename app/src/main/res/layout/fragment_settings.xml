@@ -27,6 +27,15 @@
                 app:switch_summary="@string/link_custom_tabs"
                 app:switch_title="@string/link_title" />
 
+            <com.vanced.manager.ui.core.PreferenceSwitch
+                android:id="@+id/check_updates_at_launch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:switch_key="@string/check_updates_at_launch"
+                app:switch_def_value="false"
+                app:switch_summary="@string/check_updates_at_launch_summary"
+                app:switch_title="@string/check_updates_at_launch_title" />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/notifications_recycler"
                 android:layout_width="match_parent"
