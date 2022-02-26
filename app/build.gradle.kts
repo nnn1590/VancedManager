@@ -2,7 +2,6 @@ plugins {
     id("com.android.application")
     kotlin("android")
     kotlin("kapt")
-    id("com.google.gms.google-services")
     id("androidx.navigation.safeargs.kotlin")
     id("kotlin-android")
 }
